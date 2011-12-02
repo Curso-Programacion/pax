@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+@file login.xml
+Copyright Ilke Benson, A.I.E. 2009
+@author Miguel Jaque Barbero (mjaque@ilkebenson.com)
+@author Chema Viera Godoy (chema@ilkebenson.com)
+Revisado por: $Author$ 
+Revisión: $Rev$
+@date $Date$
+Diseñado por: Miguel Jaque Barbero
+Fecha de Diseño: 21/4/2009
+-->
+<pax:página título="Identificación" scriptPropio="sí" estiloPropio="sí"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:pax="http://www.ilkebenson.com/pax"
+		xmlns:ilkm="http://www.ilkebenson.com/ilkm">
+
+	<h1>Identificación del Usuario</h1>
+	<p>
+		<form method="POST">
+			<input type="hidden" id="uniqid"/>
+			<fieldset id="fieldsetLogin">
+				<div id="divLogin">
+				<p class="etiqueta">
+					Usuario:
+					<input name="nombre" id="nombre" size="10"/>
+				</p>
+				<p class="etiqueta">
+					Clave:&#160;&#160;&#160;
+					<input type="password" name="clave" id="clave" size="10"/>
+				</p>
+				<input id="botonAcceder" type="button" value="Acceder"/>
+				</div>
+			</fieldset>
+		</form>
+	</p>
+</pax:página>

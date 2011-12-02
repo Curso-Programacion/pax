@@ -1,0 +1,14 @@
+p#nombreExcepcion{
+	color:#8DA3B1;
+	font-size: 90%;
+	text-align: right;
+}
+p.nota{
+	margin-top: 2em;
+	font-size:0.8em;
+}
+p.notaKingy{
+	margin-top: 2em;
+	font-size:0.8em;
+	text-align: right;
+}

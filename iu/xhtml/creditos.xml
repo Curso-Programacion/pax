@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+@file creditos.xml
+Copyright Ilke Benson, A.I.E. 2009
+@author Miguel Jaque Barbero (mjaque@ilkebenson.com)
+@author Chema Viera Godoy (chema@ilkebenson.com)
+Revisado por: $Author$ 
+Revisión: $Rev$
+@date $Date$
+Diseñado por: Miguel Jaque Barbero
+Fecha de Diseño: 21/4/2009
+-->
+<pax:página título="Créditos" scriptPropio="sí" estiloPropio="sí"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:pax="http://www.ilkebenson.com/pax"
+		xmlns:ilkm="http://www.ilkebenson.com/ilkm">
+
+	<h1>Acerca de Arcángel 0.1</h1>
+	<p>Esta aplicación ha sido diseñada y programada por Miguel Jaque Barbero (mjaque@ilkebenson.com) para 
+	<a href="http://www.ilkebenson.com">Ilke Benson, A.I.E.</a></p>
+	<p>Como resulta evidente, se inspira en phpMyAdmin (<a href="http://www.phpmyadmin.net">www.phpmyadmin.net</a>), 
+	tomando como referencia algunas de sus características y formas de presentación. Aporta como novedad la posibilidad 
+	de trabajar con claves externas relacionadas.</p>
+	<p>Ilke-Manager está programado en PHP y sólo funciona con MySQL.</p>
+	<h2>Licencia</h2>
+	<p>Distribuido bajo los términos de la Licencia Pública General v3 (Cfr. <a href="http://www.fsf.org">Free Software Foundation</a>).</p>
+	<p class="centrado">Copyright Ilke Benson, A.I.E. 2009</p>
+</pax:página>

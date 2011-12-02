@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+@file xml.php 
+Copyright Ilke Benson, A.I.E. 2009
+@author Miguel Jaque Barbero (mjaque@ilkebenson.com)
+@author Chema Viera Godoy (chema@ilkebenson.com)
+Revisado por: $Author$ 
+Revisión: $Rev$
+@date $Date$
+Diseñado por: Miguel Jaque Barbero
+Fecha de Diseño: 21/4/2009
+-->
+<html xml:lang="es"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:pax="http://www.ilkebenson.com/pax"
+		xmlns:paxDemo="http://www.ilkebenson.com/paxDemo">
+	<head>
+		<title>PAXDemo (PHP, AJAX y XHTML) - </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<link href="mailto:info@ilkebenson.com" rev="made"/>
+		<link rel="stylesheet" type="text/css" href="iu/css/paxDemo.css"/>
+		<script type="text/JavaScript" src="iu/js/behaviour.js"/>
+		<script type="text/JavaScript" src="iu/js/iu.js"/>
+		<script type="text/JavaScript" src="iu/js/paxDemo.js"/>
+	</head>
+	<body>
+		<!-- Campos de aviso -->
+		<input type="hidden" id="avisoTitulo" />
+		<input type="hidden" id="avisoTexto" />
+
+		<div id="principal">
+			<div id="cabecera">
+			</div>
+			<p id="caminoMigas">Camino de Migas</p>
+			<div id="menuOperacion">
+				<h2>Menú de Operaciones</h2>
+				<p class="menuOperacion" id="menuOperacion1">Operación 1</p> 
+				<p class="menuOperacion" id="menuOperacion2">Operación 2</p> 
+				<hr/>
+				<p class="menuOperacion" id="menuSalir">Salir</p> 
+			</div>
+			<br/>
+			<div id="contenedor">
+				<pax:interfaz/>
+			</div>
+			<div id="pie">
+				<img src="iu/img/w3_valid-xhtml.gif" alt="XHTML 1.1 válido" />
+				<img src="iu/img/w3_valid-css.gif" alt="CSS válida" />
+				<a href="index.php?PaxAccion=creditos.ver"><img src="iu/img/boton_creditos.jpg" alt="Créditos" /></a>
+			</div>
+		</div>
+		<paxDemo:campoComunicador id="kingy"/>
+	</body>
+</html>

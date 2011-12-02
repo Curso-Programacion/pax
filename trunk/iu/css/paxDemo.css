@@ -1,0 +1,345 @@
+/* Reglas de Reset {*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*}*/
+/*{ Estilos Generales*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+h1 {
+	font-family: century gothic, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #CC292B;
+	text-align: left;
+	margin-bottom: 0.8em;
+}
+h2 {
+	font-family: century gothic, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+	color: #CC292B;
+	text-align: left;
+	margin: 5px 0px 10px 0px;
+}
+h3 {
+	font-family: century gothic, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #999999;
+	text-align: left;
+}
+p{
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #6495ed;
+}
+p.etiqueta {
+	width: 100%;
+	color:#8DA3B1;
+	float:left;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	height:3.5em;
+	margin-right:10px;
+	text-align:left;
+}
+p.centrado{
+	text-align: center;
+}
+.nota {
+	color:#8DA3B1;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:0.7em;
+	text-align:left;
+}
+label	{
+	color:navy;
+	font-weight:bold;
+	font-size:0.9em;
+}
+:focus {
+	outline: 0;
+	background-color: #ffff88;
+}
+#principal{
+	width: 950px;
+	margin: 10px auto;
+	text-align: center;
+}
+div#principal{
+	margin:10px auto;
+	text-align:center;
+	width:950px;
+}
+@media screen {
+	#contenedor {
+		height: 450px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+}
+#cabecera {
+	background-image: url(../img/cabecera.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90px;
+}
+#contenedor{
+	height: 450px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+#pie {
+	width: 950px;
+	height: 50px; /* + el 80px del padding top hacen 100 */
+	background-image: url(../img/pie.jpg);
+	background-position: left;
+	background-repeat: no-repeat;	
+	text-align: right;	
+	padding-top: 20px;	
+	text-align: center;
+}
+#pie .texto_pie {
+	text-align: center;
+	font-weight: normal;
+	color: #1B5790;
+	font-size: 0.8em;
+}
+#pie .texto_pie a{
+	font-weight: normal;
+	color: #1B5790;
+	text-decoration: none;
+}
+#pie .texto_pie a:hover {
+	color: #1B5790;
+	text-decoration: underline;
+}
+input, select, textarea {
+	border:1px solid #8CA2B0;
+}
+fieldset{
+	border:1px solid #CCCCCC;
+	clear:both;
+	padding:4px 4px 4px 10px;
+}
+legend{
+	color:#8DA3B1;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:0.8em;
+	font-weight:bold;
+	text-align:left;
+}
+button, input[type="submit"], input[type="button"], input[type="reset"]{
+	background:#99CCFF none repeat scroll 0 0;
+	border:1px solid #000066;
+	text-align:center;
+	width:150px;
+}
+div#menuOperacion {
+	float: left;
+	width: 18%;
+	min-height: 300px;
+	background-color: #ccffff;
+	color: #1B5790;
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0.5em;
+	padding: 0.5em;	
+	border: 1px solid black;
+	-moz-border-radius: 5px;
+}
+p.menuOperacion {
+	font-weight: normal;
+	color: #1B5790;
+	text-decoration: none;
+	cursor:pointer;
+}
+p.menuOperacion:hover {
+	color: #1B5790;
+	text-decoration: underline;
+}
+#menuOperacion select{
+	width: 150px;
+}
+table {
+	border-collapse:separate;
+	margin-top: 1em;
+	border: 1px solid #B9DCF4;
+	width:98%;
+	font-size:80%;
+}
+table, th, td {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #6495ed;
+	font-size: 90%;	
+	border: 1px solid #E6EDF5;
+}
+tbody td, th {
+	padding: 4px;
+}
+thead th {
+	text-align: left;
+	background: #E6EDF5;
+	color: #4F76A3;
+	font-size: 100%;
+	white-space: nowrap;
+}
+tbody th {
+	font-weight: bold;
+	text-align: left;
+}
+tbody td {
+	text-align: left;
+	vertical-align: top;
+	white-space:nowrap;
+	overflow: hidden;
+}
+tbody tr {
+	background: #f7f7fc;
+}
+p#caminoMigas{
+	margin:0;
+	padding:0;
+	font-size:75%;
+	color:gray;
+}
+/*}*/
+/*{Estilos de Kingy	*/
+div#kingy {
+	position:absolute;
+	top:475px;
+	left:20px;
+}
+img#kingyImg{
+	position:absolute;
+	width: 125px;
+	height: 125px;
+}
+div#kingyTexto{
+	position:absolute;
+	top: 0px;
+	left: 175px;
+	width: 400px;
+	border:1px solid black;
+	-moz-border-radius: 15px;
+	padding: 1em;
+	text-align:center;
+	display:none;
+}
+img#kingyPico{
+	position:absolute;
+	top: 10px;
+	left: 130px;
+	width: 50px;
+	height: 50px;
+	display:none;
+}
+
+#kingyImg.kingyAparecer{
+	background-image: url(../img/kingy/aparicion_una_vez.gif);
+}
+#kingyImg.kingyEstar{
+	background-image: url(../img/kingy/estar_infinito.gif);
+}
+#kingyImg.kingyHablar{
+	background-image: url(../img/kingy/hablando_infinito.gif);
+}
+#kingyImg.kingyAvisar{
+	background-image: url(../img/kingy/aviso_una_vez.gif);
+}
+#kingyImg.kingyAlertar{
+	background-image: url(../img/kingy/alerta_una_vez.gif);
+}
+#kingyImg.kingyDormir{
+	background-image: url(../img/kingy/dormir_infinito.gif);
+}
+
+#kingyTexto.kingyEstar{
+	display:none;
+}
+#kingyTexto.kingyHablar{
+	display:block;
+	background-color:#83c1ed;
+}
+#kingyTexto.kingyAvisar{
+	display:block;
+	background-color:#ffff00;
+}
+#kingyTexto.kingyAlertar{
+	display:block;
+	background-color:#ff0000;
+}
+#kingyTexto.kingyDormir{
+	display:none;
+}
+
+#kingyPico.kingyEstar{
+	display:none;
+}
+#kingyPico.kingyHablar{
+	display:block;
+	background-image: url(../img/kingy/pico.png);
+}
+#kingyPico.kingyAvisar{
+	display:block;
+	background-image: url(../img/kingy/pico_amarillo.png);
+}
+#kingyPico.kingyAlertar{
+	display:block;
+	background-image: url(../img/kingy/pico_rojo.png);
+}
+#kingyPico.kingyDormir{
+	display:none;
+}
+/*}*/
+.iconoEditar, .iconoBorrar{
+	cursor:pointer;
+}
+
+#logoCliente{
+	float:right;
+	height: 80px;
+}

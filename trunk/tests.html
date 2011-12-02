@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+	<head>
+		<title>Pruebas de PAXDemo</title>
+		<script type="text/JavaScript">
+			var ventana;
+			function abrirPHPUnit(){
+				ventana = window.open("paxDemoTestsuite.php");
+			}
+			function abrirPHPSintactico(){
+				ventana = window.open("testsPHPSintactico.php");
+			}
+			function abrirJS(){
+				ventana = window.open("serv/jsunit/testRunner.html");
+				window.setTimeout(irJS, 3000);
+			}
+			function irJS(){
+				ventana.frames[0].frames[0].document.forms[0].testFileName.value = "http://localhost/triton2/iu/js/testIu.html";
+			}
+			function abrirRatatui(){
+				ventana = window.open("test/ratatui/index.html");
+				window.setTimeout(irRatatui, 3000);
+			}
+			function irRatatui(){
+				ventana.document.getElementById("ficheroTest").value = "../triton2.remy";
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Pruebas de PAXDemo</h1>
+		<p>Desde aquí podrás ejecutar todo tipo de pruebas sobre la aplicación.</p>
+		<input type="button" value="Pruebas Unitarias PHP" onclick="abrirPHPUnit()"/>
+		<input type="button" value="Pruebas Sintácticas PHP" onclick="abrirPHPSintactico()"/>
+		<input type="button" value="Pruebas Unitarias JavaScript" onclick="abrirJS()"/>
+		<input type="button" value="Pruebas Aceptación" onclick="abrirRatatui()"/>
+	</body>
+</html>

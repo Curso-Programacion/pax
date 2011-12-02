@@ -1,0 +1,14 @@
+h1{
+	width: 40%;
+	margin: auto;
+	margin-top:1em;
+}
+#fieldsetLogin{
+	width: 40%;
+	margin: auto;
+}
+#divLogin{
+	margin:auto; 
+	width: 50%;
+	padding: 1em 0.5em 1em 0.5em;
+}

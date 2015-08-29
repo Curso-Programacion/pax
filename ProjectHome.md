@@ -1,0 +1,1 @@
+PAX, un conjunto de Librerías de clase de PHP que implementan el patron arquitectónico MVC usando los patrones de diseño más importantes
